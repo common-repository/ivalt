@@ -1,0 +1,143 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+body {
+    font-family: 'Inter' !important;
+}
+
+.display-4{
+    font-size: 1.4rem;
+}
+.bd-callout-info {
+    border-left-width: 5px;
+    border-left-color: #0d6efd!important;
+}
+.iti {
+    width: 100% !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    padding: 0;
+}
+ol li {
+    counter-increment: my-awesome-counter;
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+ol li::before {
+    content: counter(my-awesome-counter);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 0.8rem;
+    font-family: 'Abril Fatface', serif;
+    line-height: 1;
+    background: #250B42;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
+.custom-card{
+    background: #EBF3FF;
+    padding: 25px 60px;
+    border-radius: 10px;
+}
+.form-title{
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #250B42;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-label{
+    font-family: 'Inter' !important;
+    font-weight: 600 !important;
+    color: #250B42 !important;
+}
+.btn-primary{
+    background: #250B42 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border: #250B42 !important;
+    padding: 7px 29px !important;
+}
+.btn-error{
+    background: #EE4E61 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border: #EE4E61 !important;
+    padding: 7px 29px !important;
+    color: white;
+}
+.error-input{
+    border: 1.5px solid #EE4E61 !important;;
+}
+.form-outline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=tel]{
+    min-height: 38px !important;
+    border-top-right-radius :0 !important;
+    border-bottom-right-radius :0 !important;
+}
+.pText{
+    font-size:1rem !important;
+    color: black;
+}
+.main-title{
+    font-weight: 600 !important;
+    color: #250B42 !important;
+}
+.appStoreSection{
+    margin-top: 20px !important;
+}
+.text-a {
+    color : #EE4E61;
+    font-weight: 600;
+    text-decoration: underline !important;
+}
+.alert-danger{
+    background: #F1CFC6 !important;
+    border-radius: 20px !important;
+    height: 60px !important;
+}
+.rounded{
+    display: inline-flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+    border-radius: 10px !important;
+}
+.error-box{
+    min-height: 80px!important;
+    max-height: 80px!important;
+    height: 80px!important;
+}
+.btn:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+.error-message {
+    color: #d63638 !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
